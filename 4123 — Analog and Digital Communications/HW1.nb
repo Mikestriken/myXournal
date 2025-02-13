@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11376,        302]
-NotebookOptionsPosition[      9928,        271]
-NotebookOutlinePosition[     10376,        288]
-CellTagsIndexPosition[     10333,        285]
+NotebookDataLength[     10212,        267]
+NotebookOptionsPosition[      8787,        237]
+NotebookOutlinePosition[      9215,        253]
+CellTagsIndexPosition[      9172,        250]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -224,44 +224,10 @@ Cell[BoxData["\[Infinity]"], "Output",
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
-  RowBox[{"Limit", "[", 
-   RowBox[{
-    RowBox[{
-     FractionBox["1", 
-      RowBox[{"2", "T"}]], 
-     RowBox[{"Limit", "[", 
-      RowBox[{
-       RowBox[{"Sum", "[", 
-        RowBox[{
-         RowBox[{"Limit", "[", 
-          RowBox[{
-           RowBox[{"Integrate", "[", 
-            RowBox[{
-             SuperscriptBox[
-              RowBox[{"Abs", "[", 
-               RowBox[{
-                SuperscriptBox["E", 
-                 FractionBox[
-                  RowBox[{"-", "t"}], "2"]], 
-                RowBox[{"UnitstepRange", "[", 
-                 RowBox[{"t", ",", "0", ",", "Pi"}], "]"}]}], "]"}], "2"], 
-             ",", 
-             RowBox[{"{", 
-              RowBox[{"t", ",", 
-               RowBox[{"-", "T"}], ",", "T"}], "}"}]}], "]"}], ",", 
-           RowBox[{"T", "\[Rule]", "Infinity"}]}], "]"}], ",", 
-         RowBox[{"{", 
-          RowBox[{"i", ",", 
-           RowBox[{"-", "T"}], ",", "T"}], "}"}]}], "]"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"T", "\[Rule]", " ", "Infinity"}], "}"}]}], "]"}]}], ",", 
-    RowBox[{"{", 
-     RowBox[{"T", "\[Rule]", " ", "Infinity"}], "}"}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.948368839159172*^9, 3.9483689092149563`*^9}},
- CellLabel->
-  "In[129]:=",ExpressionUUID->"75b21fc3-dae9-4a9c-a6cc-919bd2b512bf"],
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.948368839159172*^9, 3.9483689092149563`*^9}, 
+   3.9483774924619713`*^9},ExpressionUUID->"75b21fc3-dae9-4a9c-a6cc-\
+919bd2b512bf"],
 
 Cell[BoxData["\[Infinity]"], "Output",
  CellChangeTimes->{3.948368918633357*^9},
@@ -270,8 +236,7 @@ Cell[BoxData["\[Infinity]"], "Output",
 }, Open  ]]
 },
 WindowSize->{712.1999999999999, 509.4},
-WindowMargins->{{456.59999999999997`, Automatic}, {
-  Automatic, 92.39999999999999}},
+WindowMargins->{{Automatic, 0}, {0.6000000000000227, Automatic}},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 9, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"7bdba89e-36a7-402e-aa8e-7dfba6fbd0d4"
@@ -301,8 +266,8 @@ Cell[7991, 213, 187, 3, 32, "Output",ExpressionUUID->"ecc60a8c-9a06-41dd-9aef-33
 Cell[8181, 218, 189, 3, 32, "Output",ExpressionUUID->"513f24d7-5dac-474e-870a-ae758f5d0607"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8407, 226, 1339, 37, 159, "Input",ExpressionUUID->"75b21fc3-dae9-4a9c-a6cc-919bd2b512bf"],
-Cell[9749, 265, 163, 3, 55, "Output",ExpressionUUID->"c9cc90c5-bc2b-4ffc-bfe6-8d106daed611"]
+Cell[8407, 226, 198, 3, 49, "Input",ExpressionUUID->"75b21fc3-dae9-4a9c-a6cc-919bd2b512bf"],
+Cell[8608, 231, 163, 3, 32, "Output",ExpressionUUID->"c9cc90c5-bc2b-4ffc-bfe6-8d106daed611"]
 }, Open  ]]
 }
 ]
